@@ -1,0 +1,14 @@
+1 端口时区分软件的
+2 2个字节 0-65535
+3 同一个协议内不能冲突 TCP/UDP这两个协议
+4 1024一下的端口号一般时公用的  自己设计时尽量大一点
+
+windoms 命令台 下
+查看所有端口 :netstat -ano
+查看指定端口 : netstat -aon|findstr "端口号"
+查看那个应用占用该端口： tasklist|findstr "进程号"
+
+
+
+URI = URL+UDI
+url/uri的区别：
